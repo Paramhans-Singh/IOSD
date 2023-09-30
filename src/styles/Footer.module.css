@@ -1,0 +1,26 @@
+.footer {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo h2 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom p {
+    font-size: 14px;
+}

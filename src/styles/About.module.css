@@ -1,0 +1,176 @@
+
+.about{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.about h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about h1:hover{
+    color: orange;
+}
+
+.contentLeft{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 20px;
+    padding: 40px;  
+    background-color: #0078d4; 
+    color: #fff; 
+    border-radius: 10%;
+}
+
+.contentRight{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 20px;
+  padding: 40px;  
+  background-color: gainsboro; 
+  color: blue; 
+  border-radius: 10%;
+}
+
+.contentLeft img{
+    width: 30%;
+    height: 30%;
+    border-radius: 15%;
+}
+
+.contentRight img{
+  width: 30%;
+  height: 30%;
+  border-radius: 15%;
+}
+
+.mission{
+    /* background-color: gainsboro;  */
+    /* color: blue;  */
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.mission h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+  
+.mission h2:hover{
+    color: orange;
+}
+
+.mission p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.mission ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-left: 40px;
+}
+  
+.mission ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+  
+
+.vision {
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+  
+  .vision h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .vision h2:hover{
+    color: orange;
+  }
+  
+  .vision p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .vision ul {
+    list-style: disc;
+    padding-right: 20px;
+    margin-left: 40px;
+  }
+  
+  .vision ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .goals { 
+    padding: 40px;
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .goals h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .goals h2:hover{
+    color: orange;
+  }
+
+  .goals ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-left: 60px;
+  }
+  
+  .goals ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .faq {
+    /* background-color: #e0e0e0;  */
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .faq h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .faq h2:hover{
+    color: orange;
+  }
+  
+  .faq-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .faq-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
