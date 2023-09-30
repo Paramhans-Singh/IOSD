@@ -5,7 +5,7 @@ const Events = () => {
   return (
     <div className={styles.events}>
       <h1>Upcoming Events</h1>
-      <p>Stay tuned for exciting events brought to you by 'iosd mait.'</p>
+      <p>Stay tuned for exciting events brought to you by 'IOSD MAIT'</p>
 
       <section className= {styles.eventContainer}>
         <h2 className= {styles.eventName}>Orientation</h2>
