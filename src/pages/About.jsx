@@ -102,7 +102,7 @@ const About = () => {
     <section className={styles.contentRight}>
       <div className={styles.faq}>
         <h2>FAQ</h2>
-        <div className="faq-item">
+        <div className={styles.item}>
           <h3> Who can join "IOSD MAIT"? </h3>
           <p> Membership is open to all students at MAIT. We welcome anyone with an interest in technology and a passion for learning. </p>
           
