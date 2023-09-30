@@ -18,7 +18,9 @@
 }
 
 .sponsorImage {
-  max-width: 100%;
+  width: 20%;
+  height: 20%;
+  border-radius: 20%;
   margin-bottom: 15px;
 }
 
