@@ -1,23 +1,33 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom"
 
-import Navbar from '../src/components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Team from './pages/Team';
 import Events from './pages/Events';
-import Sponser from "./pages/Sponser";
+import Sponsor from "./pages/Sponsor";
 import Member from './pages/Member';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { MantineProvider } from "@mantine/core";
 
+const Layout=()=>{
+  return (
+       <>
+        <Navbar/>
+        <Footer/>
+       </> 
+  )
+};
 
 const router = createBrowserRouter([
   {
    path: '/',
-   element: <Navbar /> ,
+   element: <Layout /> ,
    children: [
     {
-      index: true,
+      index: '/',
       element: <Home />,
     },
     {
@@ -45,8 +55,8 @@ const router = createBrowserRouter([
       element: <Contact />,
     },
     {
-      path: '/sponser',
-      element: <Sponser />,
+      path: '/sponsor',
+      element: <Sponsor />,
     },
    ]
   }
@@ -54,8 +64,6 @@ const router = createBrowserRouter([
 
 
 function App() {
-
-
   return (
     <RouterProvider router={router} />
   )

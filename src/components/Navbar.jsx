@@ -11,11 +11,11 @@ const links = [
   { link: '/events', label: 'Events' },
   { link: '/member', label: 'Member' },
   { link: '/gallery', label: 'Gallery' },
-  { link: '/sponser', label: 'Sponser' },
+  { link: '/sponsor', label: 'Sponsor' },
   { link: '/contact', label: 'Contact Us' },
 ];
 
-export default function Layout() {
+const Navbar=() => {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
 
@@ -49,3 +49,5 @@ export default function Layout() {
   </>
   );
 }
+
+export default Navbar;

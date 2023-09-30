@@ -1,6 +1,7 @@
 import React from 'react'
-import { Hero } from '../components/Hero'
+import Hero from '../components/Hero'
 import classes from '../styles/Home.module.css';
+
 
 const Home = () => {
   return (
