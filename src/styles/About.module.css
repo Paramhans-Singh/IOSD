@@ -1,12 +1,12 @@
 
 .about{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .about h1{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5px;
     text-transform: uppercase;
     text-align: center;
@@ -21,8 +21,8 @@
     flex-direction: row;
     /* justify-content: space-between; */
     align-items: center;
-    margin: 20px;
-    padding: 40px;  
+    margin: 10px;
+    padding: 20px;  
     background-color: #0078d4; 
     color: #fff; 
     border-radius: 10%;
@@ -33,35 +33,33 @@
   flex-direction: row;
   /* justify-content: space-between; */
   align-items: center;
-  margin: 20px;
-  padding: 40px;  
+  margin: 10px;
+  padding: 20px;  
   background-color: gainsboro; 
   color: blue; 
   border-radius: 10%;
 }
 
 .contentLeft img{
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     border-radius: 15%;
 }
 
 .contentRight img{
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   border-radius: 15%;
 }
 
 .mission{
-    /* background-color: gainsboro;  */
-    /* color: blue;  */
-    padding: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .mission h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5px;
     text-transform: uppercase;
 }
@@ -71,31 +69,29 @@
 }
 
 .mission p {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
   
 .mission ul {
     list-style: disc;
-    padding-left: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
   
 .mission ul li {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
   
 
 .vision {
-    padding: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    border-radius: 15%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
   
   .vision h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5px;
     text-transform: uppercase;
   }
@@ -105,29 +101,28 @@
   }
   
   .vision p {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
   
   .vision ul {
     list-style: disc;
-    padding-right: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   
   .vision ul li {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 5px;
   }
   
   .goals { 
-    padding: 40px;
-    margin: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
   
   .goals h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5px;
     text-transform: uppercase;
   }
@@ -138,25 +133,23 @@
 
   .goals ul {
     list-style: disc;
-    padding-left: 20px;
-    margin-left: 60px;
+    margin-left: 20px;
   }
   
   .goals ul li {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
   
   .faq {
-    /* background-color: #e0e0e0;  */
-    padding: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
   
   .faq h2 {
-    font-size: 50px;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
     text-transform: uppercase;
   }
 
@@ -164,13 +157,13 @@
     color: orange;
   }
   
-  .faq-item h3 {
-    font-size: 20px;
-    margin-top: 10px;
+  .item h3 {
+    font-size: 15px;
+    margin-bottom: 0px;    
   }
   
-  .faq-item p {
-    font-size: 18px;
-    margin-bottom: 10px;
+  .item p {
+    font-size: 13px;
+    margin-bottom: 5px;
   }
   
