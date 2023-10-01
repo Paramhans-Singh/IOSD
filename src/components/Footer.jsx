@@ -55,7 +55,7 @@ export default function Footer() {
               Contact Us
             </Title>
             <Text className={classes.contactPhone}>
-              +91-9999999999
+                 +91-9654302198
             </Text>
             <Text className={classes.contactEmail}>
               mail@iosd.com
