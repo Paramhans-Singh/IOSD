@@ -5,7 +5,7 @@ import About from './pages/About';
 import Team from './pages/Team';
 import Events from './pages/Events';
 import Sponsor from "./pages/Sponsor";
-import Member from './pages/Member';
+import Members from './pages/Members';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Navbar from "./components/Navbar";
@@ -43,8 +43,8 @@ const router = createBrowserRouter([
       element: <Events />,
     },
     {
-      path: '/member',
-      element: <Member />,
+      path: '/members',
+      element: <Members />,
     },
     {
       path: '/gallery',

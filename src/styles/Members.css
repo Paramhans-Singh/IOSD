@@ -1,0 +1,171 @@
+.members{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 4%;
+    width: 100%;
+}
+.mainheading{
+    font-size: 4.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+}
+.sectionContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+}
+.subheading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 70vh;
+    padding: 2rem;
+
+}
+.contentLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+}
+.contentLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.contentRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70vh;
+}
+.contentText{
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
+.FeeBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(3, 2, 104, 0.826);
+    box-shadow: rgb(0, 76, 255) 0px 0px 0px 2px , rgba(4, 19, 226, 0.9) 0px 0px 0px 2px;
+    box-shadow: rgba(110, 174, 248, 0.4) 0px 2px 4px, rgba(96, 188, 249, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.boxHeading{
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    color: rgb(200, 200, 199);
+}
+.boxContent{
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 1rem;
+    text-align: justify;
+}
+.boxPrice{
+    font-size: 2.4rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 1rem 1rem 0;
+}
+.FeeBoxButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    border: 1px solid rgb(254, 64, 64);
+    padding: 0.5rem;
+}
+.FeeBoxButton:hover{
+    background-color: rgb(250, 41, 170);
+    color: white;
+}
+
+.faqBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+
+
+
+
+.hr{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+.first{
+    background-color: rgb(163, 68, 251);
+}
+.firstBox{
+    background-color: rgba(132, 29, 184, 0.373);
+}
+.second{
+    background-color: rgba(96, 246, 239, 0.771);
+}
+.secondBox{
+    background-color: rgba(3, 143, 134, 0.31);
+    flex-direction: row-reverse;
+}
+.third{
+    background-color: rgba(36, 64, 250, 0.671);
+}
+.thirdBox{
+    background-color: rgba(0, 26, 196, 0.278);
+}
+.fourth{
+    background-color: rgba(255, 0, 170, 0.671);
+}
+.fourthBox{
+    background-color: rgba(255, 0, 212, 0.232);
+    flex-direction: row-reverse;
+}
