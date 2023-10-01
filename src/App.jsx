@@ -6,7 +6,7 @@ import Team from './pages/Team';
 import Events from './pages/Events';
 import Sponsor from "./pages/Sponsor";
 import Members from './pages/Members';
-import Gallery from './pages/Gallery';
+import Gallery from './pages/Gallery.tsx';
 import Contact from './pages/Contact';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
