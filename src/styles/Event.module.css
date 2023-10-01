@@ -1,43 +1,82 @@
 
 .events{
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+
+
+.events h1{
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  /* text-decoration:double; */
+}
+
+.events h1:hover{
+  color: orange;
+}
+
+.events p {
+  font-size: 16px;
   margin: 20px;
-  padding: 20px;
+  color: white;
+  
 }
 
 .eventContainer {
-  background-color: #f0f0f0; /* Light gray background for each event container */
+  /* background-color: #f0f0f0; Light gray background for each event container */
   padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for event containers */
+  margin: 30px;
+  margin-left: 20px;
+  /* border-radius: 5%; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Box shadow for event containers */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  /* width: 100%; */
+
+}
+
+.eventContainer img{
+  width: 300px;
+  height: 250px;
+  margin-right: 20px;
+  border-radius: 35%;
 }
 
 .eventName {
-  color: #0078d4; /* Dark blue event name color */
+  color: white; /* Dark blue event name color */
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.eventName:hover{
+  color: orange;
 }
 
 .eventDescription {
   font-size: 16px;
   margin-bottom: 15px;
+  color: white;
 }
 
 .eventDate {
   font-size: 14px;
   margin-bottom: 5px;
-  color: #555; /* Dark gray date color */
+  color: white; /* Dark gray date color */
 }
 
 .eventLocation {
   font-size: 14px;
   margin-bottom: 5px;
-  color: #555; /* Dark gray location color */
+  color: white; /* Dark gray location color */
 }
 
 h1 {
-  color: #0078d4; /* Dark blue header color */
+  color: white; /* Dark blue header color */
   font-size: 36px;
   margin-bottom: 20px;
 }

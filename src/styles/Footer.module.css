@@ -1,7 +1,7 @@
 .footer {
-    /* margin-top: rem(120px); */
+   
     padding-top: calc(var(--mantine-spacing-xl) * 2);
-    padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+    /* padding-bottom: calc(var(--mantine-spacing-xl) * 2); */
     background: linear-gradient(89.94deg, #09090F 0.05%, #0A1227 86.22%);
     color: white;
     border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));

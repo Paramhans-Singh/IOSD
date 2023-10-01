@@ -1,8 +1,10 @@
 
 .about{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
-    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
 
 .about h1{
@@ -10,6 +12,7 @@
     margin-bottom: 5px;
     text-transform: uppercase;
     text-align: center;
+    color: #fff;
     /* text-decoration:double; */
 }
 
@@ -24,6 +27,7 @@
     align-items: center;
     margin: 10px;
     padding: 20px;  
+    /* margin-left: 10%; */
     /* border-radius: 10%; */
 }
 
@@ -39,27 +43,27 @@
 .contentLeft img{
     width: 40%;
     height: 40%;
-    border-radius: 15%;
+    border-radius: 55%;
 }
 
 .contentRight img{
   width: 40%;
   height: 40%;
-  border-radius: 15%;
+  border-radius: 55%;
 }
 
 .mission{
-    padding: 20px;
+    padding: 30px;
     margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: #0078d4; 
-    color: #fff; 
+    margin-bottom: 20px;
+    /* background-color: #0078d4;  */
+    color: white; 
     border-radius: 10%;
 }
 
 .mission h2 {
     font-size: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
   
@@ -69,7 +73,7 @@
 
 .mission p {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
   
 .mission ul {
@@ -79,22 +83,23 @@
   
 .mission ul li {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 5%;
 }
   
 
 .vision {
-    padding: 20px;
+    padding: 50px;
     margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: gainsboro; 
-    color: blue; 
+    margin-bottom: 20px;
+    /* background-color: gainsboro;  */
+    color: white; 
     border-radius: 10%;
 }
   
   .vision h2 {
     font-size: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-transform: uppercase;
   }
 
@@ -104,7 +109,7 @@
   
   .vision p {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   .vision ul {
@@ -115,20 +120,21 @@
   .vision ul li {
     font-size: 15px;
     margin-bottom: 5px;
+    margin-left: 5%;
   }
   
   .goals { 
-    padding: 20px;
+    padding: 50px;
     margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: #0078d4; 
-    color: #fff; 
+    margin-bottom: 20px;
+    /* background-color: #0078d4;  */
+    color: white; 
     border-radius: 10%;
   }
   
   .goals h2 {
     font-size: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-transform: uppercase;
   }
   
@@ -143,21 +149,22 @@
   
   .goals ul li {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 5%;
   }
   
   .faq {
-    padding: 20px;
+    padding: 40px;
     margin-left: 10px;
-    margin-bottom: 10px;
-    background-color: gainsboro; 
-    color: blue;
+    margin-bottom: 20px;
+    /* background-color: gainsboro;  */
+    color: white;
     border-radius: 10%; 
   }
   
   .faq h2 {
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-transform: uppercase;
   }
 
@@ -168,10 +175,12 @@
   .item h3 {
     font-size: 15px;
     margin-bottom: 0px;    
+    margin-left: 5%;
   }
   
   .item p {
     font-size: 13px;
     margin-bottom: 5px;
+    margin-left: 5%;
   }
   
