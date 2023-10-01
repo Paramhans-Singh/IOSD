@@ -58,7 +58,7 @@ const UpcomingEvents = () => {
   return (
     <Container size="lg" className={classes.container}>
         <Title order={1} >Upcoming Events</Title>
-        <Group className={classes.events}>
+        <Group className={classes.events} justify='center'>
             {events.map((event)=> (
                 <EventCard key={event.id} 
                     title={event.title}
