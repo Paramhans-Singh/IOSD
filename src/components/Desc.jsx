@@ -20,9 +20,7 @@ const Desc = () => {
                 Who are we?
             </Title>
             <Text className={classes.text}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error obcaecati facilis doloremque tempora. Id laboriosam magnam est repellendus cupiditate, expedita omnis facere ut odit fugiat sint velit, quam explicabo.
-                Hic beatae in sunt repellendus ad cupiditate, harum exercitationem porro sequi labore vero. Eaque rerum, fuga atque, natus suscipit, ex ipsam quis aspernatur eveniet voluptatem itaque repudiandae earum doloribus quas.
-                Quaerat aliquid nostrum recusandae, obcaecati facere iste magnam ex non possimus vero veniam hic, quos deserunt, atque consequuntur necessitatibus? Quaerat quidem dolorem tempore iure harum reiciendis dicta repellat corrupti? Necessitatibus.
+            The International Organization of Software Developers (IOSD) at the Maharaja Agrasen Institute of Technology (MAIT) is a dynamic tech community dedicated to advancing the field of software development and technology. Our mission is to empower students with cutting-edge software development skills and knowledge, foster collaboration and networking opportunities, provide high-quality educational resources, and encourage the use of technology for positive social impact. We envision IOSD MAIT as a globally recognized tech society that cultivates a thriving tech ecosystem, makes a global impact, and forms strong industry partnerships. Membership is open to all MAIT students, offering access to exclusive workshops, events, and resources while nurturing a vibrant and inclusive tech community. Stay updated with our activities through our website, social media, mailing list, and meeting announcements, and join us in the pursuit of excellence in software development and technology innovation.
             </Text>
             <Button variant='filled' className={classes.button} onClick={seeMoreHandler}>
                 See more
