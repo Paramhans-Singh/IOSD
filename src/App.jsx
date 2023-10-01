@@ -41,10 +41,6 @@ const router = createBrowserRouter([
       element: <Gallery />,
     },
     {
-      path: '/contact',
-      element: <Contact />,
-    },
-    {
       path: '/sponser',
       element: <Sponser />,
     },

@@ -12,7 +12,6 @@ const links = [
   { link: '/member', label: 'Member' },
   { link: '/gallery', label: 'Gallery' },
   { link: '/sponser', label: 'Sponser' },
-  { link: '/contact', label: 'Contact Us' },
 ];
 
 export default function Layout() {

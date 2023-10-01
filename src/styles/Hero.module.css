@@ -8,15 +8,22 @@
     padding-top: calc(var(--mantine-spacing-xl) * 4);
     padding-bottom: calc(var(--mantine-spacing-xl) * 4);
     
+    @media (max-width: $mantine-breakpoint-sm) {
+      flex-direction: column-reverse;
+    }
+
   }
   
   .content {
-    max-width: rem(480px);
+    max-width: rem(500px);
     margin-right: calc(var(--mantine-spacing-xl) * 3);
   
     @media (max-width: $mantine-breakpoint-md) {
       max-width: 100%;
       margin-right: 0;
+    }
+    @media (max-width: $mantine-breakpoint-sm) {
+      padding-top: 50px;
     }
   }
   
@@ -47,4 +54,28 @@
     background-color: var(--mantine-color-blue-light);
     border-radius: var(--mantine-radius-sm);
     padding: rem(4px) rem(12px);
+  }
+
+  .heroCards {
+    @media (max-width: $mantine-breakpoint-sm) {
+      justify-content: center;
+    }
+  }
+
+  .card {
+    width: 200px;
+    color: white;
+    padding-top: rem(50px);
+  }
+
+  .heroicon {
+    width: 50px !important;
+  }
+
+  .heroCardContent {
+    padding-top: 10px;
+  }
+
+  .text {
+    line-height: 1.4 !important;
   }
