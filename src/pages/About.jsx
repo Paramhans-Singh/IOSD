@@ -1,5 +1,10 @@
 import React from 'react';
 import styles from "../styles/About.module.css";
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
+import image3 from "../assets/image3.jpg";
+import image4 from "../assets/image4.jpg";
+
 
 const About = () => {
   return (
@@ -7,7 +12,7 @@ const About = () => {
       <h1>About Us</h1>
 
       <section className={styles.contentLeft}>
-      <img src='https://media.tenor.com/flflC6GFzO8AAAAM/sultan-alrefaei-programmer.gif'/>
+      <img src={image1}/>
       <div className={styles.mission}>     
       <h2>Mission</h2>
       <p>At IOSD MAIT, our mission is to foster a vibrant and innovative tech community within our institution. We are committed to:</p>
@@ -56,12 +61,12 @@ const About = () => {
           </li>
         </ul>
         </div>
-        <img src='https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966'/>
-      </section>
+        <img src={image2}/>
+        </section>
 
       <section className={styles.contentLeft}>
-      <img src='https://user-images.githubusercontent.com/69011963/137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif'/>
-        <div className={styles.goals}>
+      <img src={image3}/> 
+      <div className={styles.goals}>
         <h2>Goals</h2>
        <ul>
           <li>
@@ -117,8 +122,8 @@ const About = () => {
           
           </div>
         </div>
-        <img src='https://camo.githubusercontent.com/a4c584bce1c41271485d28f92aaf9f581b3c88b68ca723b6edfd58b4ba988c2b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313138373833362f73637265656e73686f74732f363533393432392f70726f6772616d65722e676966'/>
-      </section>
+        <img src={image4}/>
+        </section>
     </div>
   );
 };
