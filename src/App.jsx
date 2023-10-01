@@ -51,12 +51,8 @@ const router = createBrowserRouter([
       element: <Gallery />,
     },
     {
-      path: '/contact',
-      element: <Contact />,
-    },
-    {
-      path: '/sponsor',
-      element: <Sponsor />,
+      path: '/sponser',
+      element: <Sponser />,
     },
    ]
   }
