@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Members.css";
+import '../styles/Members.css';
 
 const Members = () => {
   return (
@@ -9,7 +9,7 @@ const Members = () => {
         <div className="subheading first">How to Join</div>
         <div className="content firstBox">
           <div className="contentLeft">
-            <img src="/Creative team-amico.png" alt="" />
+            <img src="src/assets/Creative team-amico.png" alt="" />
           </div>
           <div className="contentRight">
             <div className="contentText">
@@ -40,7 +40,7 @@ const Members = () => {
         <div className="subheading second">Benefits of becoming a member</div>
         <div className="content secondBox">
           <div className="contentLeft">
-            <img src="/Team work-amico.png" alt="" />
+            <img src="src/assets/Team work-amico.png" alt="" />
           </div>
           <div className="contentRight">
             <div className="contentText">
@@ -98,7 +98,10 @@ const Members = () => {
       </div>
       <div className="sectionContainer">
         <div className="subheading fourth">FAQ's</div>
-        <div className="content fourthBox">            
+        <div className="content fourthBox">
+        <div className="contentLeft">
+            <img src="src/assets/Business decisions-amico.png" alt="" />
+          </div>            
         </div>
 
         <hr className="hr fourth"/>

@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .members{
     display: flex;
     flex-direction: column;
@@ -5,6 +10,8 @@
     min-height: 100vh;
     padding: 2rem 4%;
     width: 100%;
+    background-color: black;
+    color: white;
 }
 .mainheading{
     font-size: 4.5rem;
@@ -75,7 +82,7 @@
     border-radius: 10px;
     margin: 1rem;
     padding: 1rem;
-    background-color: rgba(3, 2, 104, 0.826);
+    background-color: rgba(4, 2, 104, 0.458);
     box-shadow: rgb(0, 76, 255) 0px 0px 0px 2px , rgba(4, 19, 226, 0.9) 0px 0px 0px 2px;
     box-shadow: rgba(110, 174, 248, 0.4) 0px 2px 4px, rgba(96, 188, 249, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -163,9 +170,9 @@
     background-color: rgba(0, 26, 196, 0.278);
 }
 .fourth{
-    background-color: rgba(255, 0, 170, 0.671);
+    background-color: rgba(255, 0, 170, 0.936);
 }
 .fourthBox{
-    background-color: rgba(255, 0, 212, 0.232);
+    background-color: rgba(255, 77, 225, 0.284);
     flex-direction: row-reverse;
 }
