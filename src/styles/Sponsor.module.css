@@ -1,31 +1,34 @@
 .sponsor{
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 20px;
-  padding: 20px;
+  /* margin: 20px;
+  padding: 20px; */
+  background-color: black;
 }
 .sponsorContainer {
-  background-color: #f0f0f0; /* Light gray background for each sponsor container */
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for sponsor containers */
+  /* background-color: #f0f0f0; Light gray background for each sponsor container */
+  padding: 10px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  /* border-radius: 5px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Box shadow for sponsor containers */
 }
 
 .sponsorName {
-  color: #0078d4; /* Dark blue sponsor name color */
+  color: white; /* Dark blue sponsor name color */
   font-size: 24px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .sponsorImage {
   width: 20%;
-  height: 20%;
+  height: 40%;
   border-radius: 20%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .sponsorLink {
-  color: #0078d4; /* Dark blue link color */
+  color: white; /* Dark blue link color */
   text-decoration: none;
   font-weight: bold;
 }
@@ -35,12 +38,17 @@
 }
 
 h1 {
-  color: #0078d4; /* Dark blue header color */
-  font-size: 36px;
+  color: white; /* Dark blue header color */
+  font-size: 50px;
   margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2%;
 }
 
 p {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin: 40px;
+  color: white;
+
 }
