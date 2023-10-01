@@ -9,7 +9,7 @@ const links = [
   { link: '/about', label: 'About' },
   { link: '/team', label: 'Team' },
   { link: '/events', label: 'Events' },
-  { link: '/member', label: 'Member' },
+  { link: '/members', label: 'Members' },
   { link: '/gallery', label: 'Gallery' },
   { link: '/sponser', label: 'Sponser' },
 ];
