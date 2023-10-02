@@ -1,26 +1,26 @@
 import React, { useState, useCallback, useRef } from "react";
 import { PhotoAlbum } from "react-photo-album";
 import clsx from "clsx";
-import codeIT1 from "/public/codeIT1.jpeg";
-import codeIT2 from "/public/codeIT2.jpeg";
-import codeIT3 from "/public/codeIT3.jpeg";
-import codeIT4 from "/public/codeIT4.jpeg";
-import codeIT5 from "/public/codeIT5.jpeg";
-import codeIT6 from "/public/codeIT6.jpeg";
-import codeIT7 from "/public/codeIT7.jpeg";
-import codeIT8 from "/public/codeIT8.jpeg";
-import codeIT9 from "/public/codeIT9.jpeg";
-import codeIT10 from "/public/codeIT10.jpeg";
-import codeIT11 from "/public/codeIT11.jpeg";
-import codeIT12 from "/public/codeIT12.jpeg";
-import codeIT13 from "/public/codeIT13.jpeg";
-import codeIT14 from "/public/codeIT14.jpeg";
-import codeIT15 from "/public/codeIT15.jpeg";
-import codeIT16 from "/public/codeIT16.jpeg";
-import kickstart221 from "/public/kickstart221.jpeg";
-import kickstart222 from "/public/kickstart222.jpeg";
-import kickstart223 from "/public/kickstart223.jpeg";
-import kickstart224 from "/public/kickstart224.jpeg";
+import codeIT1 from "../assets/CodeIT1.jpeg";
+import codeIT2 from "../assets/CodeIT2.jpeg";
+import codeIT3 from "../assets/CodeIT3.jpeg";
+import codeIT4 from "../assets/CodeIT4.jpeg";
+import codeIT5 from "../assets/CodeIT5.jpeg";
+import codeIT6 from "../assets/CodeIT6.jpeg";
+import codeIT7 from "../assets/CodeIT7.jpeg";
+import codeIT8 from "../assets/CodeIT8.jpeg";
+import codeIT9 from "../assets/CodeIT9.jpeg";
+import codeIT10 from "../assets/CodeIT10.jpeg";
+import codeIT11 from "../assets/CodeIT11.jpeg";
+import codeIT12 from "../assets/CodeIT12.jpeg";
+import codeIT13 from "../assets/CodeIT13.jpeg";
+import codeIT14 from "../assets/CodeIT14.jpeg";
+import codeIT15 from "../assets/CodeIT15.jpeg";
+import codeIT16 from "../assets/CodeIT16.jpeg";
+import kickstart221 from "../assets/Kickstart221.jpeg";
+import kickstart222 from "../assets/Kickstart222.jpeg";
+import kickstart223 from "../assets/Kickstart223.jpeg";
+import kickstart224 from "../assets/Kickstart224.jpeg";
 import {
   closestCenter,
   DndContext,
