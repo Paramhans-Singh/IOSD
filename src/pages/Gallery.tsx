@@ -34,6 +34,7 @@ type PhotoFrameProps = SortablePhotoProps & {
     attributes?: Partial<React.HTMLAttributes<HTMLDivElement>>;
     listeners?: Partial<React.HTMLAttributes<HTMLDivElement>>;
 };
+const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
 const unsplashPhotos = [
     { src: "public/codeIT(1).jpeg", width: 1080, height: 1080 },
@@ -60,14 +61,14 @@ const photoSet =  unsplashPhotos.map((photo) => ({
     src: photo.src,
     width: photo.width,
     height: photo.height,
-    // srcSet: breakpoints.map((breakpoint) => {
-    //     const height = Math.round((photo.height / photo.width) * breakpoint);
-    //     return {
-    //         src: photo.src,
-    //         width: breakpoint,
-    //         height,
-    //     };
-    // }),
+    srcSet: breakpoints.map((breakpoint) => {
+        const height = Math.round((photo.height / photo.width) * breakpoint);
+        return {
+            src: photo.src,
+            width: breakpoint,
+            height,
+        };
+    }),
 }));
 
 
@@ -136,9 +137,9 @@ function SortablePhotoFrame(props: SortablePhotoProps & { activeIndex?: number }
 
 export default function Gallery() {
     const [photos, setPhotos] = React.useState(
-        (photoSet as Photo[]).map((photo) => ({
+        (photoSet).map((photo) => ({
             ...photo,
-            id: photo.key || photo.src,
+            id: photo.src,
         }))
     );
     const renderedPhotos = React.useRef<{ [key: string]: SortablePhotoProps }>({});
