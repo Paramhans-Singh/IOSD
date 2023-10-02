@@ -8,28 +8,26 @@ const Desc = () => {
 
     const navigate = useNavigate();
 
-    const seeMoreHandler = ()=> navigate('/about');
+    const seeMoreHandler = () => navigate('/about');
 
 
 
-  return (
-    <Container size="lg" className={classes.container}>
-        <Image src={EventCollage} className={classes.image}/>
-        <div className={classes.content}>
-            <Title order={1} >
-                Who are we?
-            </Title>
-            <Text className={classes.text}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error obcaecati facilis doloremque tempora. Id laboriosam magnam est repellendus cupiditate, expedita omnis facere ut odit fugiat sint velit, quam explicabo.
-                Hic beatae in sunt repellendus ad cupiditate, harum exercitationem porro sequi labore vero. Eaque rerum, fuga atque, natus suscipit, ex ipsam quis aspernatur eveniet voluptatem itaque repudiandae earum doloribus quas.
-                Quaerat aliquid nostrum recusandae, obcaecati facere iste magnam ex non possimus vero veniam hic, quos deserunt, atque consequuntur necessitatibus? Quaerat quidem dolorem tempore iure harum reiciendis dicta repellat corrupti? Necessitatibus.
-            </Text>
-            <Button variant='filled' className={classes.button} onClick={seeMoreHandler}>
-                See more
-            </Button>
-        </div>
-    </Container>
-  )
+    return (
+        <Container size="lg" className={classes.container}>
+            <Image src={EventCollage} className={classes.image} />
+            <div className={classes.content}>
+                <Title order={1} >
+                    Who are we?
+                </Title>
+                <Text className={classes.text}>
+                    The "IOSD MAIT" is likely a college society at the Maharaja Agrasen Institute of Technology (MAIT) dedicated to technology and software development. College tech societies like IOSD MAIT play a crucial role in enhancing the technical skills and knowledge of students while fostering a vibrant tech community on campus. IOSD MAIT may organize a wide range of activities and initiatives, such as coding competitions, workshops on emerging technologies, hackathons, and coding bootcamps. These events provide students with hands-on experience, opportunities to learn from industry experts, and a chance to showcase their technical talents.
+                </Text>
+                <Button variant='filled' className={classes.button} onClick={seeMoreHandler}>
+                    See more
+                </Button>
+            </div>
+        </Container>
+    )
 }
 
 export default Desc

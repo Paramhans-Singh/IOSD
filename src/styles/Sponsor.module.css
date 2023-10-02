@@ -2,7 +2,8 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* margin: 20px;
   padding: 20px; */
-  background-color: black;
+  background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%);  
+  padding-bottom: 10%;
 }
 .sponsorContainer {
   /* background-color: #f0f0f0; Light gray background for each sponsor container */
@@ -18,6 +19,10 @@
   font-size: 24px;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+.sponsorName:hover {
+  color: orange;
 }
 
 .sponsorImage {
@@ -44,6 +49,10 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 2%;
+}
+
+h1:hover {
+  color: orange;
 }
 
 p {
