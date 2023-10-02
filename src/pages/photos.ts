@@ -22,18 +22,18 @@ const unsplashPhotos = [
     { src: "src/assets/kickstart22 (4).jpeg", width: 1080, height: 1080 },
 ];
 
-const photos = unsplashPhotos.map((photo) => ({
+const photoSet = unsplashPhotos.map((photo) => ({
     src: photo.src,
     width: photo.width,
     height: photo.height,
-    srcSet: breakpoints.map((breakpoint) => {
-        const height = Math.round((photo.height / photo.width) * breakpoint);
-        return {
-            src: photo.src,
-            width: breakpoint,
-            height,
-        };
-    }),
+    // srcSet: breakpoints.map((breakpoint) => {
+    //     const height = Math.round((photo.height / photo.width) * breakpoint);
+    //     return {
+    //         src: photo.src,
+    //         width: breakpoint,
+    //         height,
+    //     };
+    // }),
 }));
 
-export default photos;
+export default photoSet;
