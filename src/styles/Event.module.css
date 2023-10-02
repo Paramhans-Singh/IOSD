@@ -1,7 +1,8 @@
 
 .events{
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: black;
+  background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%); 
+  padding-bottom: 5%; 
 }
 
 
@@ -22,6 +23,7 @@
   font-size: 16px;
   margin: 20px;
   color: white;
+  margin-left: 3%;
   
 }
 
@@ -51,6 +53,7 @@
   color: white; /* Dark blue event name color */
   font-size: 24px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .eventName:hover{

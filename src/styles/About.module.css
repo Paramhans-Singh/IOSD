@@ -3,8 +3,9 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%);  
     color: white;
+    padding-bottom: 5%;
 }
 
 .about h1{
@@ -65,6 +66,7 @@
     font-size: 40px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin-left: -20px;
 }
   
 .mission h2:hover{
@@ -74,6 +76,7 @@
 .mission p {
     font-size: 15px;
     margin-bottom: 10px;
+    margin-left: -20px;
 }
   
 .mission ul {
@@ -101,6 +104,7 @@
     font-size: 40px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin-left: -20px;
   }
 
   .vision h2:hover{
@@ -110,6 +114,7 @@
   .vision p {
     font-size: 15px;
     margin-bottom: 10px;
+    margin-left: -20px;
   }
   
   .vision ul {
@@ -156,10 +161,9 @@
   .faq {
     padding: 40px;
     margin-left: 10px;
-    margin-bottom: 20px;
     /* background-color: gainsboro;  */
     color: white;
-    border-radius: 10%; 
+    /* border-radius: 10%;  */
   }
   
   .faq h2 {
@@ -172,15 +176,25 @@
     color: orange;
   }
   
-  .item h3 {
+  .text{
+    /* padding: 20px; */
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+    /* background-color: #0078d4;  */
+    color: white; 
+    /* border-radius: 10%; */
+  }
+  .text h3 {
     font-size: 15px;
-    margin-bottom: 0px;    
+    /* margin-bottom: 1px;     */
     margin-left: 5%;
   }
   
-  .item p {
+  .text p {
     font-size: 13px;
-    margin-bottom: 5px;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-top: 1px;
+    /* margin-bottom: 1px; */
   }
   

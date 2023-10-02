@@ -8,11 +8,9 @@ const Desc = () => {
 
     const navigate = useNavigate();
 
-    const seeMoreHandler = ()=> navigate('/about');
+    const seeMoreHandler = () => navigate('/about');
 
-
-
-  return (
+    return (
     <Container size="lg" className={classes.container}>
         <Image src={EventCollage} className={classes.image}/>
         <div className={classes.content}>

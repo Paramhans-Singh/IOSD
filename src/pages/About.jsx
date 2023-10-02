@@ -108,18 +108,26 @@ const About = () => {
       <div className={styles.faq}>
         <h2>FAQ</h2>
         <div className={styles.item}>
+          <div className={styles.text}>
           <h3> Who can join "IOSD MAIT"? </h3>
           <p> Membership is open to all students at MAIT. We welcome anyone with an interest in technology and a passion for learning. </p>
+          </div>
           
+          <div className={styles.text}>
           <h3> How do I become a member? </h3>
           <p> You can become a member by signing up on our website or attending one of our introductory meetings. Membership involves a nominal fee. </p>
-          
+          </div>
+
+          <div className={styles.text}>
           <h3> What benefits do members receive? </h3>
           <p> Members gain access to exclusive workshops, events, and resources. They can also network with fellow tech enthusiasts and industry professionals. </p>
-            
+          </div>
+
+          <div className={styles.text}>  
           <h3> How can I stay updated with "IOSD MAIT" activities? </h3>
           <p> You can stay informed by following our website, social media channels, and joining our mailing list. We also announce events during our meetings. </p>
-          
+          </div>
+
           </div>
         </div>
         <img src={image4}/>

@@ -76,22 +76,30 @@ const Members = () => {
             <img src={member3} alt="" />
           </div>
 
-          <div className="contentRight">
-            <div className="contentText">
-            <h3> Who can join "IOSD MAIT"? </h3>
+      <div className="contentRight">
+        <div className="contentText">
+          <div className="text">
+          <h3> Who can join "IOSD MAIT"? </h3>
           <p> Membership is open to all students at MAIT. We welcome anyone with an interest in technology and a passion for learning. </p>
-          
+          </div>
+
+          <div className="text">
           <h3> How do I become a member? </h3>
           <p> You can become a member by signing up on our website or attending one of our introductory meetings. Membership involves a nominal fee. </p>
-          
+          </div>
+
+          <div className="text">
           <h3> What benefits do members receive? </h3>
           <p> Members gain access to exclusive workshops, events, and resources. </p>
-            
+          </div>
+
+          <div className="text">
           <h3> How can I stay updated with "IOSD MAIT" activities? </h3>
           <p> You can stay informed by following our website, social media channels. We also announce events during our meetings. </p>
+          </div>
           
-          </div>
-          </div>
+        </div>
+      </div>
         </div>
 
 
