@@ -11,7 +11,7 @@ const links = [
   { link: '/events', label: 'Events' },
   { link: '/members', label: 'Members' },
   { link: '/gallery', label: 'Gallery' },
-  { link: '/sponser', label: 'Sponser' },
+  { link: '/sponser', label: 'Sponsor' },
 ];
 
 const Navbar=() => {

@@ -61,3 +61,48 @@ p {
   color: white;
 
 }
+
+.sponsorBox{
+    background-color: rgba(4, 2, 104, 0.458);
+    box-shadow: rgb(0, 76, 255) 0px 0px 0px 2px , rgba(4, 19, 226, 0.9) 0px 0px 0px 2px;
+    box-shadow: rgba(110, 174, 248, 0.4) 0px 2px 4px, rgba(96, 188, 249, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 35%;
+    margin: 7%;
+    height: 20%;
+    margin-left: 35%;
+    padding: 10px;
+    border-radius: 10%;    
+}
+.title{
+ text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(200, 200, 199);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.text{
+  /* background-color: royalblue; */
+  font-size: 24px;
+  color: rgb(200, 200, 199);
+    text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;  
+  text-transform: uppercase;
+  margin: 4%;
+  padding: 2%;
+  padding-top: 3%;
+  border: 1px solid rgb(254, 64, 64);
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.text:hover{
+  background-color: rgb(250, 41, 170);
+  color: white;
+}
