@@ -1,6 +1,26 @@
 import React, { useState, useCallback, useRef } from "react";
 import { PhotoAlbum } from "react-photo-album";
 import clsx from "clsx";
+import codeIT1 from "/public/codeIT1.jpeg";
+import codeIT2 from "/public/codeIT2.jpeg";
+import codeIT3 from "/public/codeIT3.jpeg";
+import codeIT4 from "/public/codeIT4.jpeg";
+import codeIT5 from "/public/codeIT5.jpeg";
+import codeIT6 from "/public/codeIT6.jpeg";
+import codeIT7 from "/public/codeIT7.jpeg";
+import codeIT8 from "/public/codeIT8.jpeg";
+import codeIT9 from "/public/codeIT9.jpeg";
+import codeIT10 from "/public/codeIT10.jpeg";
+import codeIT11 from "/public/codeIT11.jpeg";
+import codeIT12 from "/public/codeIT12.jpeg";
+import codeIT13 from "/public/codeIT13.jpeg";
+import codeIT14 from "/public/codeIT14.jpeg";
+import codeIT15 from "/public/codeIT15.jpeg";
+import codeIT16 from "/public/codeIT16.jpeg";
+import kickstart221 from "/public/kickstart221.jpeg";
+import kickstart222 from "/public/kickstart222.jpeg";
+import kickstart223 from "/public/kickstart223.jpeg";
+import kickstart224 from "/public/kickstart224.jpeg";
 import {
   closestCenter,
   DndContext,
@@ -27,26 +47,26 @@ import "yet-another-react-lightbox/styles.css";
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
 const unsplashPhotos = [
-  { src: "public/codeIT1.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT2.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT3.jpeg", width: 1080, height: 1620 },
-  { src: "public/codeIT5.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT6.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT4.jpeg", width: 1080, height: 384 },
-  { src: "public/codeIT7.jpeg", width: 1080, height: 1680 },
-  { src: "public/codeIT8.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT9.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT10.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT11.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT12.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT13.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT14.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT15.jpeg", width: 1080, height: 1080 },
-  { src: "public/codeIT16.jpeg", width: 1080, height: 1080 },
-  { src: "public/kickstart221.jpeg", width: 1080, height: 1080 },
-  { src: "public/kickstart222.jpeg", width: 1080, height: 1080 },
-  { src: "public/kickstart223.jpeg", width: 1080, height: 1080 },
-  { src: "public/kickstart224.jpeg", width: 1080, height: 1080 },
+  { src: codeIT1, width: 1080, height: 1080 },
+  { src: codeIT2, width: 1080, height: 1080 },
+  { src: codeIT3, width: 1080, height: 1620 },
+  { src: codeIT5, width: 1080, height: 1080 },
+  { src: codeIT6, width: 1080, height: 1080 },
+  { src: codeIT4, width: 1080, height: 384 },
+  { src: codeIT7, width: 1080, height: 1680 },
+  { src: codeIT8, width: 1080, height: 1080 },
+  { src: codeIT9, width: 1080, height: 1080 },
+  { src: codeIT10, width: 1080, height: 1080 },
+  { src: codeIT11, width: 1080, height: 1080 },
+  { src: codeIT12, width: 1080, height: 1080 },
+  { src: codeIT13, width: 1080, height: 1080 },
+  { src: codeIT14, width: 1080, height: 1080 },
+  { src: codeIT15, width: 1080, height: 1080 },
+  { src: codeIT16, width: 1080, height: 1080 },
+  { src: kickstart221, width: 1080, height: 1080 },
+  { src: kickstart222, width: 1080, height: 1080 },
+  { src: kickstart223, width: 1080, height: 1080 },
+  { src: kickstart224, width: 1080, height: 1080 },
 ];
 
 const photoSet = unsplashPhotos.map((photo) => ({
