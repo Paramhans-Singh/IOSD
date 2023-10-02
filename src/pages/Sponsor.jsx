@@ -26,6 +26,10 @@ const Sponsor = () => {
         <p>Website: <a href="https://www.geeksforgeeks.org/" className={styles.sponsorLink}>GFG</a></p>
       </section>
 
+      <div className={styles.sponsorBox}>
+            <div className={styles.title}>Sponsor IOSD MAIT</div>
+             <div className={styles.text}>Join Us</div>
+      </div>
     </div>
   );
 };
