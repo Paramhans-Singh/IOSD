@@ -86,7 +86,7 @@ const photoSet = unsplashPhotos.map((photo) => ({
 const PhotoFrame = React.memo(
   React.forwardRef((props, ref) => {
     const { layoutOptions, imageProps, overlay, active, insertPosition, attributes, listeners } = props;
-    const { alt, style, src, ...restImageProps } = imageProps;
+    const { alt, style, ...restImageProps } = imageProps;
     return (
       <div
         ref={ref}
@@ -105,7 +105,6 @@ const PhotoFrame = React.memo(
         {...listeners}
       >
         <img
-          src={src}
           alt={alt}
           style={{
             ...style,
