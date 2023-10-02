@@ -16,7 +16,7 @@ import {
 } from "@dnd-kit/core";
 import { arrayMove, SortableContext, sortableKeyboardCoordinates, useSortable } from "@dnd-kit/sortable";
 
-import photoSet from "./photos";
+// import photoSet from "./photos";
 import "../styles/Gallery.css";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -34,6 +34,42 @@ type PhotoFrameProps = SortablePhotoProps & {
     attributes?: Partial<React.HTMLAttributes<HTMLDivElement>>;
     listeners?: Partial<React.HTMLAttributes<HTMLDivElement>>;
 };
+
+const unsplashPhotos = [
+    { src: "public/codeIT(1).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(2).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(3).jpeg", width: 1080, height: 1620 },
+    { src: "public/codeIT(5).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(6).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(4).jpeg", width: 1080, height: 384 },
+    { src: "public/codeIT(7).jpeg", width: 1080, height: 1680 },
+    { src: "public/codeIT(8).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(9).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(11).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(12).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(13).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(14).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(15).jpeg", width: 1080, height: 1080 },
+    { src: "public/codeIT(16).jpeg", width: 1080, height: 1080 },
+    { src: "public/kickstart22(1).jpeg", width: 1080, height: 1080 },
+    { src: "public/kickstart22(2).jpeg", width: 1080, height: 1080 },
+    { src: "public/kickstart22(3).jpeg", width: 1080, height: 1080 },
+    { src: "public/kickstart22(4).jpeg", width: 1080, height: 1080 },
+];
+const photoSet =  unsplashPhotos.map((photo) => ({
+    src: photo.src,
+    width: photo.width,
+    height: photo.height,
+    // srcSet: breakpoints.map((breakpoint) => {
+    //     const height = Math.round((photo.height / photo.width) * breakpoint);
+    //     return {
+    //         src: photo.src,
+    //         width: breakpoint,
+    //         height,
+    //     };
+    // }),
+}));
+
 
 const PhotoFrame = React.memo(
     React.forwardRef<HTMLDivElement, PhotoFrameProps>((props, ref) => {
