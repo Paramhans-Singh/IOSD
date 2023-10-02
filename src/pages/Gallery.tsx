@@ -38,8 +38,8 @@ type PhotoFrameProps = SortablePhotoProps & {
 const PhotoFrame = React.memo(
     React.forwardRef<HTMLDivElement, PhotoFrameProps>((props, ref) => {
         const { layoutOptions, imageProps, overlay, active, insertPosition, attributes, listeners } = props;
-        const { alt, style, ...restImageProps } = imageProps;
-
+        const { alt, style,src, ...restImageProps } = imageProps;
+        {console.log(src)}
         return (
             <div
                 ref={ref}
@@ -58,6 +58,7 @@ const PhotoFrame = React.memo(
                 {...listeners}
             >
                 <img
+                    src={src}
                     alt={alt}
                     style={{
                         ...style,
