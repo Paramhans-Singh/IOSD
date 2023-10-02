@@ -22,7 +22,7 @@ const unsplashPhotos = [
     { src: "src/assets/kickstart22 (4).jpeg", width: 1080, height: 1080 },
 ];
 
-const photoSet = unsplashPhotos.map((photo) => ({
+const photos = unsplashPhotos.map((photo) => ({
     src: photo.src,
     width: photo.width,
     height: photo.height,
@@ -36,4 +36,4 @@ const photoSet = unsplashPhotos.map((photo) => ({
     // }),
 }));
 
-export default photoSet;
+export default photos;
