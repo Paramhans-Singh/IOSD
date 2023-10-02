@@ -193,7 +193,7 @@ export default function Gallery() {
       onDragEnd={handleDragEnd}
     >
       <SortableContext items={photos}>
-        <div style={{ padding: 20, paddingLeft: 40, paddingRight: 40, paddingBottom: 80, backgroundColor: "#000" }}>
+        <div style={{ padding: 20, paddingLeft: 40, paddingRight: 40, paddingBottom: 80, background: "linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%)" }}>
           <div className="galleryHead">IOSD Memories</div>
           <PhotoAlbum photos={photos} layout="rows" spacing={30} padding={20} renderPhoto={renderPhoto} onClick={({ index }) => setIndex(index)} />
           <Lightbox
