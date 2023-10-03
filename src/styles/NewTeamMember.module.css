@@ -1,0 +1,43 @@
+
+  
+  #council .card-cont {
+    /* grid-template-columns: repeat(4, auto); */
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  }
+  
+  #core .card-cont {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+  
+  .card {
+    text-align: center;
+    color: white;
+    /* background-color: rgb(28, 28, 28);
+    border: 1px solid #ffffff26; */
+    padding: 2rem;
+    border-radius: 20px;
+    width: fit-content;
+    justify-self: center;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(255, 236, 255, 0.101);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+  
+  .card h3 {
+    color: rgba(255, 255, 255, 0.505);
+    max-width: 230px;
+  }
+  
+  .card h2 {
+    max-width: 230px;
+  }
+  
+  .card img {
+    width: 230px;
+    height: 295px;
+    margin-bottom: 0.5rem;
+  }

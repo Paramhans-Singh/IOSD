@@ -1,8 +1,9 @@
 .container {
 
-    padding-top: 100px;
+    /* padding-top: 100px; */
     color: white;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+    padding: 100px 0px;
     
 }
 
@@ -12,7 +13,28 @@
 
 .card {
     width: 300px;
-    margin-left: 3%;
+    /* margin-left: 3%; */
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgSection {
+
+    /* object-fit: cover; */
+    height: 100%;
+}
+
+.imgSection img {
+    height: 100%;
+}
+
+.cardSection {
+    padding: 10px !important;
+}
+
+.cardContent {
+    padding: 10px;
 }
 
 .button {
@@ -25,6 +47,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* right: 40px; */
 }
 
 .seeMoreText {

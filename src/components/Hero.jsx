@@ -28,12 +28,12 @@ const HeroCard = (props)=> {
 
 const Hero=()=> {
   return (
-    <Container size="lg" className={classes.container}>
+    <div className={classes.container}>
       <div className={classes.inner}>
         <div className={classes.content}>
-          <Title className={classes.title}>
+          <p className={classes.title} >
             IOSD MAIT
-          </Title>
+          </p>
           <Text c="dimmed" mt="lg">
           Tech Innovations, Rooted in Heritage
           </Text>
@@ -59,7 +59,7 @@ const Hero=()=> {
         </div>
         <Image src={image} className={classes.image} />
       </div>
-    </Container>
+    </div>
   );
 }
 
