@@ -7,7 +7,7 @@ import IOSDLogo from '../assets/iosd-logo.png';
 
 const links = [
   { link: '/about', label: 'About' },
-  { link: '/team', label: 'Team' },
+  { link: '/team', label: 'Team' },                                                              
   { link: '/events', label: 'Events' },
   { link: '/members', label: 'Members' },
   { link: '/gallery', label: 'Gallery' },
@@ -19,6 +19,9 @@ const links = [
 const Navbar=() => {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
+
+  // const scrollRestoration = useScrollRestoration();
+
 
   const items = links.map((link) => (
     <NavLink
@@ -51,7 +54,8 @@ const Navbar=() => {
       {/* <Group size="md" className={classes.inner}>
       </Group> */}
     </header>
-    <Outlet />
+    <Outlet/>
+    {/* <Outlet className={`${classes.scrollableContent} ${scrollRestoration}`} /> */}
   </>
   );
 }

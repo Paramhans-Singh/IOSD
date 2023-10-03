@@ -1,3 +1,8 @@
+.scrollableContent {
+  max-height: 100vh; /* Set a maximum height to allow scrolling */
+  overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+}
+
 .header {
   height: 68px !important;
   /* margin-bottom: rem(120px); */
