@@ -23,7 +23,7 @@ const Events = () => {
       </section>
 
       <section className= {styles.eventContainer}>
-        <img src={image3} alt="" />
+        
         <div>
         <h2 className= {styles.eventName}>DevWeek</h2>
         <p className={styles.eventDescription}>
@@ -32,9 +32,11 @@ const Events = () => {
         <p className={styles.eventDate}>Date: To be Announced</p>
         <p className={styles.eventLocation}>Location: To be Announced</p>
         </div>
+        <img src={image3} alt="" />
       </section>
 
       <section className= {styles.eventContainer} >
+      <img src={image2} alt="" />
         <div>
         <h2 className= {styles.eventName}>Impulse</h2>
         <p className={styles.eventDescription}>
@@ -43,7 +45,6 @@ const Events = () => {
         <p className={styles.eventDate}>Date: To be Announced</p>
         <p className={styles.eventLocation}>Location: To be Announced</p>
         </div>
-        <img src={image2} alt="" />
       </section>
       
     </div>

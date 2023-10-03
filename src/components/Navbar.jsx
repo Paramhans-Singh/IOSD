@@ -12,7 +12,7 @@ const links = [
   { link: '/members', label: 'Members' },
   { link: '/gallery', label: 'Gallery' },
   { link: '/sponser', label: 'Sponsor' },
-  { link: '/join', label: 'Join Us' },
+  // { link: '/join', label: 'Join Us'},
 
 ];
 
@@ -40,6 +40,11 @@ const Navbar=() => {
 
         <Group gap={5} visibleFrom="xs">
           {items}
+        <a href='https://forms.gle/MvgPfScNS7hdceFw5' target='_blank'>
+        <button type="button" className={classes.button} >
+          Join us 
+        </button>
+        </a>
         </Group>
 
         <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />

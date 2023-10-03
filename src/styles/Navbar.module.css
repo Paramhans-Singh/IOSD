@@ -44,3 +44,14 @@
       color: var(--mantine-color-white);
     }
   }
+
+.button{
+  padding: 10px;
+  background-color: #754609;
+  border: 1px red solid;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}

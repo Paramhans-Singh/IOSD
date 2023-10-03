@@ -28,7 +28,9 @@ const Sponsor = () => {
 
       <div className={styles.sponsorBox}>
             <div className={styles.title}>Sponsor IOSD MAIT</div>
-             <div className={styles.text}>Join Us</div>
+            <a href='https://forms.gle/HqfQbkSnBgjpAvuo7' target='_blank' className={styles.sponsorJoin}>
+            <div className={styles.text}>Join Us</div>
+            </a>
       </div>
     </div>
   );

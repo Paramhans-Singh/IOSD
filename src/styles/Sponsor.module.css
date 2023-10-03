@@ -83,6 +83,10 @@ p {
   padding: 2%;
 }
 
+.sponsorBox .sponsorJoin{
+  text-decoration: none;
+}
+
 .text{
   /* background-color: royalblue; */
   font-size: 24px;

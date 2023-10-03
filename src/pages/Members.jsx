@@ -27,7 +27,9 @@ const Members = () => {
             <div className="boxHeading">Membership</div>
             <div className="boxPrice">₹ 1180/-</div>
             {/* <div className="boxContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea aut corrupti eius nihil fuga cupiditate odit, quia alias amet dolorem!</div> */}
-            <div className="FeeBoxButton">Join Now</div>
+            <a href='https://forms.gle/MvgPfScNS7hdceFw5' target='_blank' className="linkJoin">
+            <div className="FeeBoxButton" >Join Now</div>
+            </a>
             {/* <div className="boxContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolores facilis, maxime numquam aut quod illo harum laudantium sunt sit soluta possimus totam illum praesentium at deleniti reprehenderit nisi atque. Alias aliquam unde officiis distinctio ipsa, nobis voluptas non expedita tenetur quibusdam, nihil nisi eum nesciunt similique. Aspernatur, tenetur a.</div> */}
           </div>
           {/* <div className="FeeBox">
