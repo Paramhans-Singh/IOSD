@@ -11,7 +11,7 @@ const Desc = () => {
     const seeMoreHandler = () => navigate('/about');
 
     return (
-    <Container size="lg" className={classes.container}>
+    <div className={classes.container}>
         <Image src={EventCollage} className={classes.image}/>
         <div className={classes.content}>
             <Title order={1} >
@@ -24,7 +24,7 @@ const Desc = () => {
                 See more
             </Button>
         </div>
-    </Container>
+    </div>
   )
 }
 

@@ -99,14 +99,4 @@ const useStyles = createStyles((theme) => ({
   }
 
 
-  .teamTitle {
-    color: #FDF0F0;
-    line-height: 1;
-    text-align: center;
-    margin-top: 80px !important;
-    margin-bottom: 50px !important;
-  }
-
-  .grid {
-    justify-items: center;
-  }
+ 

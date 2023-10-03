@@ -1,6 +1,6 @@
-/* .container {
-    
-} */
+.container {
+  padding: 0px 120px;   
+}
 
 .inner {
     display: flex;
@@ -30,9 +30,10 @@
   .title {
     color: #ffff;
     font-family: Greycliff CF, var(--mantine-font-family);
-    font-size: rem(44px);
+    font-size: rem(80px) ;
     line-height: 1.2;
-    font-weight: 900;
+    font-weight: 700;
+    margin-bottom: 40px ;
     
   
     @media (max-width: $mantine-breakpoint-xs) {

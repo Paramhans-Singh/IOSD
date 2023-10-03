@@ -1,0 +1,32 @@
+
+  .section {
+    margin-top: 8rem;
+    text-align: center;
+  }
+  
+  .section h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  
+  .card-cont {
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-template-rows: repeat(3, auto);
+    justify-content: space-around;
+    align-items: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); */
+    justify-items: center;
+    
+  }
+
+  .council {
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+
+  }
+
+  .core {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+
+  }

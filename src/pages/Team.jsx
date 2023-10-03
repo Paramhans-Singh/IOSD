@@ -9,6 +9,8 @@ import {
 } from "@mantine/core";
 import classes from "../styles/Team.module.css";
 import TeamMember from "../components/TeamMember";
+import TeamMembers from "../components/TeamMembers";
+import NewTeam from "../components/NewTeam";
 
 export default function Team() {
   return (
@@ -29,30 +31,8 @@ export default function Team() {
 Allow us to introduce our dedicated and passionate team at the International Organization of Software Developers (IOSD) MAIT. Our team is a diverse group of individuals who share a common passion for software development and technology. With a collective commitment to fostering innovation and excellence, we come from various backgrounds, bringing a wide range of skills and experiences to the table
         </Text>
       </Container>
-      <Container size="lg">
-        <Title order={2} className={classes.teamTitle}>Faculty Coordinator</Title>
-        <Group justify="center">
-          <TeamMember 
-            member={{
-              name: 'Ms. Garima Gupta',
-              role: 'Coordinator'
-            }}
-
-          />
-        </Group>
-        <Title order={2} className={classes.teamTitle}>Council</Title>
-        <SimpleGrid cols={{ base: 1, xs: 4 }} spacing={80} mt={30} className={classes.grid}>
-          {
-            council.map(member=> <TeamMember member={member} />)
-          }
-        </SimpleGrid>
-        <Title order={2} className={classes.teamTitle}>Core Team</Title>
-        <SimpleGrid cols={{ base: 1, xs: 4 }} spacing={80} mt={30} className={classes.grid}>
-        {
-            core.map(member=> <TeamMember member={member} />)
-          }
-        </SimpleGrid>
-      </Container>
+     {/* <TeamMembers council={council} core={core}/> */}
+     <NewTeam />
     </div>
   );
 }
