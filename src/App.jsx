@@ -54,6 +54,10 @@ const router = createBrowserRouter([
       path: '/sponser',
       element: <Sponsor />,
     },
+    {
+      path: '/join',
+      element: <Members />,
+    },
    ]
   }
 ]);

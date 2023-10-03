@@ -8,36 +8,8 @@ import member4 from '../assets/member4.jpg';
 const Members = () => {
   return (
     <div className="members">
-      {/* <div className="mainheading">Members</div> */}
-      <div className="sectionContainer">
-        <div className="subheading first">How to Join</div>
-        <div className="content firstBox">
-          <div className="contentLeft">
-            <img src={member1} alt="" />
-          </div>
-          <div className="contentRight">
-            <div className="contentText">
-              To join IOSD MAIT, the college society, start by attending their membership drive or orientation session. Fill out the application form with accurate details and pay any required membership fees. Engage actively in society meetings, events, and responsibilities, and make the most of networking opportunities with fellow members. Stay informed about society updates, contribute your skills and ideas, and enjoy the enriching experience of being a part of IOSD MAIT.
-            </div>
-          </div>
-        </div>
-        <hr className="hr first" />
-      </div>
-      <div className="sectionContainer">
-        <div className="subheading second">Benefits of becoming a member</div>
-        <div className="content secondBox">
-          <div className="contentLeft">
-            <img src={member2} alt="" />
-          </div>
-          <div className="contentRight">
-            <div className="contentText">
-            Becoming a member of IOSD MAIT, the college society, comes with several benefits. Firstly, it provides an opportunity to connect and collaborate with like-minded individuals who share your interests and passions. Membership also allows you to participate in a wide range of engaging activities, workshops, and events organized by the society, which can enhance your skills and knowledge in various domains. Additionally, being a member often means access to valuable resources, mentorship opportunities, and a platform to showcase your talents and leadership abilities. It can also be a fulfilling experience that contributes to personal and professional growth while fostering a sense of community and camaraderie within your college.
-            </div>
-          </div>
-        </div>
-        <hr className="hr second" />
-      </div>
-      <div className="sectionContainer">
+
+<div className="sectionContainer">
         <div className="subheading third">Membership Fee</div>
         <div className="content thirdBox">
 
@@ -69,6 +41,37 @@ const Members = () => {
        </div>
         <hr className="hr third" />
       </div>
+
+      {/* <div className="mainheading">Members</div> */}
+      <div className="sectionContainer">
+        <div className="subheading first">How to Join</div>
+        <div className="content firstBox">
+          <div className="contentLeft">
+            <img src={member1} alt="" />
+          </div>
+          <div className="contentRight">
+            <div className="contentText">
+              To join IOSD MAIT, the college society, start by attending their membership drive or orientation session. Fill out the application form with accurate details and pay any required membership fees. Engage actively in society meetings, events, and responsibilities, and make the most of networking opportunities with fellow members. Stay informed about society updates, contribute your skills and ideas, and enjoy the enriching experience of being a part of IOSD MAIT.
+            </div>
+          </div>
+        </div>
+        <hr className="hr first" />
+      </div>
+      <div className="sectionContainer">
+        <div className="subheading second">Benefits of becoming a member</div>
+        <div className="content secondBox">
+          <div className="contentLeft">
+            <img src={member2} alt="" />
+          </div>
+          <div className="contentRight">
+            <div className="contentText">
+            Becoming a member of IOSD MAIT, the college society, comes with several benefits. Firstly, it provides an opportunity to connect and collaborate with like-minded individuals who share your interests and passions. Membership also allows you to participate in a wide range of engaging activities, workshops, and events organized by the society, which can enhance your skills and knowledge in various domains. Additionally, being a member often means access to valuable resources, mentorship opportunities, and a platform to showcase your talents and leadership abilities. It can also be a fulfilling experience that contributes to personal and professional growth while fostering a sense of community and camaraderie within your college.
+            </div>
+          </div>
+        </div>
+        <hr className="hr second" />
+      </div>
+      
       <div className="sectionContainer">
         <div className="subheading fourth">FAQ's</div>
         <div className="content fourthBox">

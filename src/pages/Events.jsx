@@ -22,18 +22,6 @@ const Events = () => {
         </div>
       </section>
 
-      <section className= {styles.eventContainer} >
-        <div>
-        <h2 className= {styles.eventName}>Impulse</h2>
-        <p className={styles.eventDescription}>
-          Join us for 'Impulse,' our flagship event that brings together tech enthusiasts, industry experts, and students. It's a platform for learning, networking, and innovation.
-        </p>
-        <p className={styles.eventDate}>Date: To be Announced</p>
-        <p className={styles.eventLocation}>Location: To be Announced</p>
-        </div>
-        <img src={image2} alt="" />
-      </section>
-
       <section className= {styles.eventContainer}>
         <img src={image3} alt="" />
         <div>
@@ -45,6 +33,19 @@ const Events = () => {
         <p className={styles.eventLocation}>Location: To be Announced</p>
         </div>
       </section>
+
+      <section className= {styles.eventContainer} >
+        <div>
+        <h2 className= {styles.eventName}>Impulse</h2>
+        <p className={styles.eventDescription}>
+          Join us for 'Impulse,' our flagship event that brings together tech enthusiasts, industry experts, and students. It's a platform for learning, networking, and innovation.
+        </p>
+        <p className={styles.eventDate}>Date: To be Announced</p>
+        <p className={styles.eventLocation}>Location: To be Announced</p>
+        </div>
+        <img src={image2} alt="" />
+      </section>
+      
     </div>
   );
 };
