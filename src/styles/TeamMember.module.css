@@ -50,6 +50,7 @@
     inset: 6px;
     /* background: rgba(0, 0, 0, 0.6); */
     background: #1e2649;
+    /* background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     z-index: 2;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.125);
@@ -77,7 +78,7 @@
 
    .name-and-pos {
     position: absolute;
-    margin-top: 280px;
+    margin-top: 290px;
     z-index: 4;
     transition: 0.5s;
 
@@ -93,14 +94,14 @@
     color: #fff;
     font-weight: 400;
     line-height: 1em;
-    font-size: 1em;
+    font-size: 1.25rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     text-align: center;
   }
   .name-and-pos .title span {
     font-weight: 800;
-    font-size: 0.72em;
+    font-size: 0.9rem;
     color: #ffa500;
   }
   
@@ -119,7 +120,8 @@
   
   .card:hover .content {
     transform: scale(1);
-    bottom: 25px;
+    bottom: 20px;
+    z-index: 10;
   }
   
   .content .title {
@@ -147,20 +149,21 @@
     gap: 8px;
     margin-top: 5px;
   }
+ 
   
-  .sci li {
-    list-style: none;
-  }
-  
-  .sci li .fa-brands {
+  .sci .sci-icon .fa-brands {
     width: 14px;
+    /* z-index: 10; */
+
   }
   
-  .sci li .fa-facebook {
+  .sci .sci-icon .fa-facebook {
     width: 10px;
   }
   
-  .sci li a {
+  .sci .sci-icon a {
+    /* z-index: 10; */
+
     position: relative;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
@@ -175,7 +178,7 @@
     transition: 0.5s;
   }
   
-  .sci li a:hover {
+  .sci .sci-icon a:hover {
     fill: currentColor;
     color: rgba(255, 255, 255, 1);
   }
