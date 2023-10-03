@@ -119,6 +119,7 @@ p {
   /* background-color: #; */
   background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%); 
   /* text-align: center; */
+  padding: 40px;
 
 }
 
@@ -135,28 +136,40 @@ p {
   flex-direction: column;
   align-items: center;
   margin: 0 3rem;
-  
+  align-items: center;
+  justify-content: center;
   color: white;
-  border: 2px red solid;
+  /* border: 2px red solid; */
+  box-shadow: 0 0 10px rgb(255, 255, 255); 
+  background-color: #fff;
   border-radius: 20px;
   padding: 20px;
+  transition: all 0.3s ease-in-out;
+  aspect-ratio: 1/1;
+}
+.sponsor:hover{
+  scale: 1.1;
 }
 
 .sponsor img {
-  width: 120px;
-  /* max-width: 300px; */
-  /* max-height: 200px; */
+  width: 150px;
+  min-height: 150px;
+  background-color: #ffffffd1;
+  border-radius: 10px;
+  padding: 5px;
+  object-fit: contain;
 }
 
 .sponsor h1 {
   margin: 1.5rem 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .sponsor h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 1.5rem 0;
 }
@@ -172,8 +185,26 @@ p {
   justify-content: center;
   /* background-color: white; */
   /* padding: 5%; */
+  padding: 1rem;
 }
-
+.sponsersBtn{
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%);
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow:  0 0 10px rgb(255, 255, 255);
+}
+.sponsersBtn:hover{
+  scale: 1.1;
+}
 
 
 .other {
@@ -182,7 +213,7 @@ p {
   justify-content: center;
   margin-bottom: 20px;
   align-items: center;
-  /* padding: 5%; */
+  gap: 40px;
 }
 
 @media screen and (max-width: 768px) {

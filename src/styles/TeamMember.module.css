@@ -63,7 +63,7 @@
     scale: 0.8;
     /* opacity: 0.25; */
     transition: 0.5s;
-    /* border-radius: 20px; */
+    border-radius: 10px;
     height: 85%;
   }
 

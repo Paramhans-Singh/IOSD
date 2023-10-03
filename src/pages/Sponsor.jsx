@@ -30,7 +30,6 @@ function Sponsors() {
       </div>
       <div className={styles.other}>
         <div className={styles.sponsor}>
-          <h3>Media Partner</h3>
           <img src={sponsor3} alt="Sponsor 2" />
           <h1>Evepaper</h1>
         </div>
@@ -38,14 +37,7 @@ function Sponsors() {
           <img src={sponsor4} alt="Sponsor 1" />
           <h1>Corizo</h1>
         </div>
-        <div className={styles.sponsor}>
-          <img src={sponsor5} alt="Sponsor 4" />
-          <h1>Wolfram Alpha</h1>
-        </div>
-        <div className={styles.sponsor}>
-          <img src={sponsor6} alt="Sponsor 5" />
-          <h1>Coding Blocks</h1>
-        </div>
+        
         <div className={styles.sponsor}>
           <img src={sponsor7} alt="Sponsor 6" />
           <h1>My Sphere</h1>
@@ -58,6 +50,19 @@ function Sponsors() {
           <img src={sponsor9} alt="Sponsor 3" />
           <h1>Stock Edge</h1>
         </div>
+        <div className={styles.sponsor}>
+          <img src={sponsor5} alt="Sponsor 4" />
+          <h1>Wolfram Alpha</h1>
+        </div>
+        <div className={styles.sponsor}>
+          <img src={sponsor6} alt="Sponsor 5" />
+          <h1>Coding Blocks</h1>
+        </div>
+      </div>
+      <div>
+        <a href="https://forms.gle/HqfQbkSnBgjpAvuo7" target='blank'>
+          <button className={styles.sponsersBtn}>Register as a Sponsor</button>
+        </a>
       </div>
     </section>
   );
