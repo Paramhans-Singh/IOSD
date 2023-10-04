@@ -48,7 +48,7 @@ const TeamMember = ({member}) => {
             </div>
   
             <div className={classes['sci-icon']}>
-              <a href="#">
+              <a href={member.insta}>
                 <svg
                   className={classes["fa-brands fa-instagram"]}
                   width="24"
