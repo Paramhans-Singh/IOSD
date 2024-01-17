@@ -1,199 +1,1023 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.members{
+.membership {
+    background-color: #0a1227;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding: 2rem 4%;
-    width: 100%;
-    background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%);  
-    color: white;
-}
-.mainheading{
-    font-size: 4.5rem;
-    font-weight: 600;
-    padding: 1rem;
-    width: 100%;
-}
-.sectionContainer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
     justify-content: center;
-    margin-bottom: 4rem;
-    border-radius: 10px;
-}
-.subheading{
-    font-size: 3.5rem;
-    font-weight: 600;
     width: 100%;
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: 10px 10px 0 0;
-}
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    /* min-height: 70vh; */
-    padding: 1rem;
-
-}
-.contentLeft{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    /* height: 70vh; */
-}
-.contentLeft img{
-    width: 80%;
-    height: 80%;
-    object-fit: contain;
-}
-.contentRight{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    /* height: 70vh; */
-}
-.contentText{
-    font-size: 1.2rem;
-    font-weight: 500;
-    width: 100%;
-    padding: 1rem;
-    letter-spacing: 1px;
-}
-.FeeBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgba(4, 2, 104, 0.458);
-    box-shadow: rgb(0, 76, 255) 0px 0px 0px 2px , rgba(4, 19, 226, 0.9) 0px 0px 0px 2px;
-    box-shadow: rgba(110, 174, 248, 0.4) 0px 2px 4px, rgba(96, 188, 249, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.boxHeading{
-    font-size: 1.5rem;
-    width: 100%;
-    font-weight: 600;
-    border-radius: 10px 10px 0 0;
-    color: rgb(200, 200, 199);
-}
-.boxContent{
-    font-size: 1.2rem;
-    font-weight: 500;
-    width: 100%;
-    padding: 1rem;
-    text-align: justify;
-}
-.boxPrice{
-    font-size: 2.4rem;
-    font-weight: 600;
-    width: 100%;
-    padding: 1rem 1rem 0;
+    /* height: 50%; */
 }
 
-.FeeBoxButton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 120%;
-    outline: none;
-    border: none;
-    font-size: 1.8rem;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border-radius: 10px;
-    border: 2px solid rgb(254, 64, 64);
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-}
-
-.FeeBoxButton:hover{
-    background-color: rgb(250, 41, 170);
-    color: white;
-}
-
-.faqBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin: 1rem;
-    padding: 1rem;
+.membership .div {
+    background-color: #0a1227;
+    height: 3800px;
+    position: relative;
+    width: 1590px;
     
 }
 
-.FeeBox .linkJoin{
-    text-decoration: none;
+.membership .footer-dark {
+    height: 390px;
+    left: 0;
+    position: absolute;
+    top: 3922px;
+    width: 1590px;
 }
 
-.linkJoin{
+.membership .overlap {
+    height: 2872px;
+    left: 50px;
+    position: absolute;
+    top: 95px;
+    width: 1540px;
+    
+}
+
+.membership .line {
+    height: 378px;
+    left: 316px;
+    position: absolute;
+    top: 419px;
+    width: 365px;
+}
+
+.membership .img {
+    height: 378px;
+    left: 429px;
+    position: absolute;
+    top: 1999px;
+    width: 365px;
+}
+
+.membership .line-2 {
+    height: 266px;
+    left: 742px;
+    position: absolute;
+    top: 1363px;
+    width: 371px;
+}
+
+.membership .ornament {
+    height: 300px;
+    left: 0;
+    position: absolute;
+    top: 1344px;
+    width: 300px;
+}
+
+.membership .ornament-2 {
+    height: 300px;
+    left: 1184px;
+    position: absolute;
+    top: 2572px;
+    width: 300px;
+}
+
+.membership .ornament-3 {
+    height: 300px;
+    left: 1291px;
+    position: absolute;
+    top: 448px;
+    width: 250px;
+}
+
+.membership .frame {
+    height: 603px;
+    left: 8px;
+    position: absolute;
+    top: 0;
+    width: 1460px;
+}
+
+.membership .overlap-group {
+    height: 603px;
+    position: relative;
+}
+
+.membership .rectangle {
+    background-color: #081331;
+    border-radius: 10px;
+    height: 603px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 1446px;
+}
+
+.membership .group {
+    height: 341px;
+    left: 0;
+    position: absolute;
+    top: 94px;
+    width: 753px;
+    padding: 600px;
+}
+
+.membership .text-wrapper-2 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.membership .text-wrapper {
+    color: #f5f5f5;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 749px;
+    margin: 20px;
+    
+}
+
+.membership .we-love-what-we-do {
+    color: #f5f5f5;
+    font-family: "Roboto Flex-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 142px;
+}
+
+.membership .group-wrapper {
+    height: 71px;
+    left: 201px;
+    position: absolute;
+    top: 270px;
+    width: 346px;
+}
+
+.membership .overlap-group-wrapper {
+    height: 71px;
+    width: 348px;
+}
+
+.membership .div-wrapper {
+    background-color: #76c8ff;
+    border-radius: 8px;
+    height: 71px;
+    position: relative;
+    width: 346px;
+}
+
+.membership .text-wrapper-2 {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.membership .overlap-wrapper {
+    height: 560px;
+    left: 737px;
+    position: absolute;
+    top: 25px;
+    width: 676px;
+}
+
+.membership .overlap-2 {
+    height: 560px;
+    position: relative;
+}
+
+.membership .overlap-3 {
+    height: 560px;
+    left: 116px;
+    position: absolute;
+    top: 0;
+    width: 560px;
+}
+
+.membership .image {
+    height: 269px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 286px;
+    
+}
+
+.membership .image-2 {
+    height: 293px;
+    left: 163px;
+    object-fit: cover;
+    position: absolute;
+    top: 267px;
+    width: 397px;
+    
+}
+
+.membership .image-3 {
+    height: 257px;
+    left: 270px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 242px;
+    margin-top: 20px;
+    border-top-right-radius: 90%;
+}
+
+.membership .image-4 {
+    height: 190px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 310px;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: -30px;
+    border-bottom-left-radius: 90%;
+}
+
+.membership .frame-2 {
+    background-color: #081331;
+    border-radius: 10px;
+    height: 750px;
+    left: 218px;
+    position: absolute;
+    top: 696px;
+    width: 1244px;
+}
+
+.membership .text-wrapper-3 {
+    color: #f5f5f5;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 57px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+    white-space: nowrap;
+    width: 749px;
+}
+
+.membership .p {
+    color: #ffffff;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: -8815px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 700px;
+}
+
+.membership .group-2 {
+    height: 650px;
+    left: 57px;
+    position: absolute;
+    top: 150px;
+    width: 1131px;
+}
+
+.membership .overlap-group-2 {
+    height: 650px;
+    position: relative;
+    padding: 10px;
+}
+
+.membership .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 20px;
+    left: 0;
+    position: absolute;
+    top: 239px;
+}
+
+.membership .image-5 {
+    height: 320px;
+    object-fit: cover; 
+    position: relative;
+    width: 250px;
+}
+
+.membership .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 162px;
+    width: 232px;
+    margin-top: -70px;
+    margin-left: -20px;
+}
+
+.membership .frame-4 {
+    align-items: flex-start; 
+     display: inline-flex; 
+    gap: 160px;
+    left: 211px;
+    position: absolute;
+    top: 0;
+    margin-left: -200px;
     margin-top: 20px;
 }
 
-
-
-.hr{
-    width: 100%;
-    height: 30px;
-    outline: none;
-    border: none;
-    border-radius: 0 0 10px 10px;
-}
-.first{
-    background-color: rgb(163, 68, 251);
-}
-.firstBox{
-    background-color: rgba(132, 29, 184, 0.373);
-}
-.second{
-    background-color: rgba(96, 246, 239, 0.771);
-}
-.secondBox{
-    background-color: rgba(3, 143, 134, 0.31);
-    flex-direction: row-reverse;
-}
-.third{
-    background-color: rgba(36, 64, 250, 0.671);
-}
-.thirdBox{
-    background-color: rgba(0, 26, 196, 0.278);
-}
-.fourth{
-    background-color: rgba(255, 0, 170, 0.936);
-}
-.fourthBox{
-    background-color: rgba(255, 77, 225, 0.284);
-    flex-direction: row-reverse;
+.membership .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 51px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 186px;
+    margin-top: -40px;
+    margin-left: 190px;
 }
 
-.text {
-    font-size: 13px;
-    margin-top: 1px;
-    margin: 15px;
-    margin-top: 25px;
+.membership .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 422px;
+    position: absolute;
+    top: 227px;
 }
 
-.text p{
-    margin-top: 1px;
+.membership .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 197px;
+    width: 264px;
+    margin-top: -70px;
+    margin-left: -20px;
+}
+
+.membership .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 633px;
+    position: absolute;
+    top: 0;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.membership .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    width: 177px;
+    margin-top: -40px;
+    margin-left: 170px;
+}
+
+.membership .frame-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 844px;
+    position: absolute;
+    top: 227px;
+}
+
+.membership .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 144px;
+    width: 193px;
+    margin-top: -90px;
+    margin-left: -20px;
+}
+
+.membership .frame-8 {
+    background-color: #081331;
+    border-radius: 10px;
+    height: 621px;
+    left: 57px;
+    position: absolute;
+    top: 1540px;
+    width: 1244px;
+}
+
+.membership .overlap-4 {
+    height: 419px;
+    left: 688px;
+    position: absolute;
+    top: 142px;
+    width: 528px;
+}
+
+.membership .overlap-5 {
+    height: 401px;
+    left: 36px;
+    position: absolute;
+    top: 18px;
+    width: 447px;
+}
+
+.membership .image-6 {
+    height: 210px;
+    left: 203px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 244px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.membership .image-7 {
+    height: 205px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 196px;
+    width: 254px;
+    margin-top: 20px;
+}
+
+.membership .image-8 {
+    height: 202px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 231px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.membership .image-9 {
+    height: 155px;
+    left: 312px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 216px;
+    margin-left: -20px;
+}
+
+.membership .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 54px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 45px;
+    width: 894px;
+}
+
+.membership .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 144px;
+    width: 584px;
+    padding-right: 55px;
+    text-align: justify;
+}
+
+.membership .frame-9 {
+    height: 637px;
+    left: 212px;
+    position: absolute;
+    top: 2205px;
+    width: 1060px;
+}
+
+.membership .overlap-6 {
+    height: 637px;
+    position: relative;
+}
+
+.membership .rectangle-2 {
+    background-color: #081331;
+    border-radius: 10px;
+    height: 563px;
+    left: 0;
+    position: absolute;
+    top: 74px;
+    width: 1060px;
+}
+
+.membership .image-10 {
+    height: 347px;
+    left: 318px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 409px;
+}
+
+.membership .rectangle-3{
+    height: 300px;
+    left: 246px;
+    position: absolute;
+    top: 250px;
+    width: 553px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.membership .text-wrapper-11 {
+    color: #000f38;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px;
+    text-align: center;
+    left: 10px;
+}
+
+.membership .text-wrapper-12 {
+    color: #000f38;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 150px;
+}
+
+.membership .group-3 {
+    height: 71px;
+    left: 431px;
+    position: absolute;
+    top: 495px;
+    width: 184px;
+}
+
+.membership .group-4 {
+    height: 71px;
+    width: 186px;
+}
+
+.membership .overlap-group-3 {
+    background-color: #76c8ff;
+    border-radius: 8px;
+    height: 71px;
+    position: relative;
+    width: 184px;
+    padding: 10px;
+    top: 190px;
+    left: 150px;
+}
+
+.membership .text-wrapper-13 {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    left: 25px;
+}
+.membership .text-wrapper-13 a{
+    text-decoration: none;
+    color: #000000;
+}
+.membership .frame-10 {
+    height: 683px;
+    left: 117px;
+    position: absolute;
+    top: 3055px;
+    width: 1335px;
+}
+
+.membership .overlap-7 {
+    height: 784px;
+    left: -228px;
+    position: relative;
+    width: 1563px;
+}
+
+.membership .ornament-4 {
+    height: 300px;
+    left: 111px;
+    position: absolute;
+    top: 484px;
+    width: 293px;
+}
+
+.membership .rectangle-4 {
+    background-color: #081331;
+    height: 737px;
+    left: 228px;
+    position: absolute;
+    top: 0;
+    width: 1335px;
+}
+
+.membership .group-5 {
+    height: 505px;
+    left: 309px;
+    position: absolute;
+    top: 153px;
+    width: 1155px;
+}
+
+.membership .overlap-8 {
+    background-color: var(--neutral-100);
+    border-radius: 16px;
+    box-shadow: var(--cards-short-default);
+    height: 220px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 566px;
+}
+
+.membership .group-6 {
+    height: 131px;
+    left: 32px;
+    position: relative;
+    top: 39px;
+    width: 505px;
+}
+
+.membership .text-wrapper-14 {
+    color: var(--neutral-600);
+    font-family: var(--paragraph-default-font-family);
+    font-size: var(--paragraph-default-font-size);
+    font-style: var(--paragraph-default-font-style);
+    font-weight: var(--paragraph-default-font-weight);
+    left: 0;
+    letter-spacing: var(--paragraph-default-letter-spacing);
+    line-height: var(--paragraph-default-line-height);
+    position: absolute;
+    top: 44px;
+    width: 429px;
+}
+
+.membership .text-wrapper-15 {
+    color: var(--neutral-800);
+    font-family: var(--headings-typography-size-4-font-family);
+    font-size: var(--headings-typography-size-4-font-size);
+    font-style: var(--headings-typography-size-4-font-style);
+    font-weight: var(--headings-typography-size-4-font-weight);
+    left: 0;
+    letter-spacing: var(--headings-typography-size-4-letter-spacing);
+    line-height: var(--headings-typography-size-4-line-height);
+    position: absolute;
+    top: 4px;
+    white-space: nowrap;
+    width: 408px;
+}
+
+.membership .img-wrapper {
+    background-color: var(--primarycolor-1);
+    border-radius: 8px;
+    height: 40px;
+    left: 460px;
+    position: absolute;
+    top: 0;
+    width: 42px;
+}
+
+.membership .group-7 {
+    height: 3px;
+    left: 11px;
+    position: absolute;
+    top: 19px;
+    width: 19px;
+}
+
+.membership .group-8 {
+    background-color: var(--neutral-100);
+    border-radius: 16px;
+    box-shadow: var(--cards-short-default);
+    height: 300px;
+    left: 0;
+    position: absolute;
+    top: 245px;
+    width: 566px;
+}
+
+.membership .group-9 {
+    height: 400px;
+    left: 32px;
+    position: relative;
+    top: 10px;
+    width: 503px;
+}
+
+.membership .text-wrapper-16 {
+    color: var(--neutral-800);
+    font-family: var(--headings-typography-size-4-font-family);
+    font-size: var(--headings-typography-size-4-font-size);
+    font-style: var(--headings-typography-size-4-font-style);
+    font-weight: var(--headings-typography-size-4-font-weight);
+    left: 0;
+    letter-spacing: var(--headings-typography-size-4-letter-spacing);
+    line-height: var(--headings-typography-size-4-line-height);
+    position: absolute;
+    top: 4px;
+    white-space: nowrap;
+    width: 403px;
+}
+
+.membership .group-10 {
+    background-color: #f7f7ff;
+    border-radius: 8px;
+    height: 40px;
+    left: 460px;
+    position: absolute;
+    top: 0;
+    width: 42px;
+}
+
+.membership .group-11 {
+    height: 18px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 19px;
+}
+
+.membership .group-12 {
+    background-color: var(--neutral-100);
+    border-radius: 16px;
+    box-shadow: var(--cards-short-default);
+    height: 118px;
+    left: 589px;
+    position: absolute;
+    top: 2px;
+    width: 566px;
+}
+
+.membership .group-13 {
+    background-color: var(--neutral-100);
+    border-radius: 16px;
+    box-shadow: var(--cards-short-default);
+    height: 118px;
+    left: 0;
+    position: absolute;
+    top: 388px;
+    width: 566px;
+}
+
+.membership .group-14 {
+    background-color: var(--neutral-100);
+    border-radius: 16px;
+    box-shadow: var(--cards-short-default);
+    height: 118px;
+    left: 589px;
+    position: absolute;
+    top: 142px;
+    width: 566px;
+}
+
+.membership .group-15 {
+    background-color: var(--neutral-100);
+    border-radius: 16px;
+    box-shadow: var(--cards-short-default);
+    height: 118px;
+    left: 589px;
+    position: absolute;
+    top: 283px;
+    width: 566px;
+}
+
+.membership .text-wrapper-17 {
+    color: #f5f5f5;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    white-space: nowrap;
+    width: 749px;
+}
+
+.membership .header {
+    align-items: center;
+    background: linear-gradient(180deg, rgb(9.48, 9, 15) 0.52%, rgb(10, 18.12, 39) 52.08%);
+    background-color: transparent;
+    display: flex;
+    gap: 900px;
+    justify-content: center;
+    left: 0;
+    padding: 15px 45px;
+    position: absolute;
+    top: 0;
+    width: 1590px;
+}
+
+.membership .logo {
+    align-items: flex-start;
+    display: flex;
+    gap: 11px;
+    margin-left: -0.5px;
+    position: relative;
+    width: 166px;
+}
+
+.membership .anthomkii-imagine {
+    height: 38px;
+    object-fit: cover;
+    position: relative;
+    width: 110px;
+}
+
+.membership .navbar-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 80px;
+    margin-right: -0.5px;
+    position: relative;
+}
+
+.membership .navbar {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+}
+
+.membership .text-wrapper-18 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+:root {
+    --cards-short-default: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+    --headings-typography-size-4-font-family: "DMSans-Medium", Helvetica;
+    --headings-typography-size-4-font-size: 22px;
+    --headings-typography-size-4-font-style: normal;
+    --headings-typography-size-4-font-weight: 500;
+    --headings-typography-size-4-letter-spacing: 0px;
+    --headings-typography-size-4-line-height: 28px;
+    --neutral-100: rgba(255, 255, 255, 1);
+    --neutral-600: rgba(111, 108, 144, 1);
+    --neutral-800: rgba(23, 15, 73, 1);
+    --paragraph-default-font-family: "DMSans-Regular", Helvetica;
+    --paragraph-default-font-size: 18px;
+    --paragraph-default-font-style: normal;
+    --paragraph-default-font-weight: 400;
+    --paragraph-default-letter-spacing: 0px;
+    --paragraph-default-line-height: 30px;
+    --primarycolor-1: rgba(74, 58, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+}
+
+.membership .faq{
+    background-color: #081331;
+    border-radius: 10px;
+    height: 563px;
+    left: 0;
+    position: absolute;
+    top: 74px;
+    width: 1060px;
+    padding: 50px;
+    top: 3100px;
+    left: 200px;
+  
+}
+
+.membership .faq-heading{
+    color: #ffffff;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 54px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 45px;
+    width: 894px; 
+}
+
+.membership .title{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.membership .title-3{
+    background-color: white;
+    border-radius: 5%;
+    padding: 20px;
+    margin-right: 440px;
+    margin-left: -80px;
+    margin-bottom: 10px;
+}
+
+.membership .title-4{
+    background-color: white;
+    border-radius: 5%;
+    padding: 20px;
+    margin-left: 360px;
+    margin-top: -180px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+}
+
+.membership .title-5{
+    background-color: white;
+    border-radius: 5%;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin-right: 440px;
+    margin-left: -80px;
+    margin-bottom: 10px;
+}
+
+.membership .title-6{
+    background-color: white;
+    border-radius: 5%;
+    padding: 15px !important;
+    margin-left: 360px;
+    margin-top: -190px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+}
+
+.membership .title-3 h3 p {
+    color: #000f38;
+}
+
+.membership .part{
+    margin: -5px;
+    padding: -30px;
+    color: #000f38;
 }
