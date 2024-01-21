@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+    justify-content: space-between;
+    
+}
+
+.mission {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.graphics {
+    height: 90%;
+}
+
+.content {
+    display: flex;
+
+}
+
+.missionList {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 300px;
+    gap: 40px;
+}

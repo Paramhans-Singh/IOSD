@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+    justify-content: space-between;
+    
+}
+
+.mission {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.graphics {
+    /* height: 10%; */
+}
+
+.content {
+    display: flex;
+
+}
+
+.missionList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 99px;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* width: 20vw; */
+    position: absolute;
+}
+
+.titleContainer h3 {
+    /* font-size: 20px; */
+}

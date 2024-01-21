@@ -1,0 +1,16 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* gap: 5px; */
+    /* padding: 10px; */
+}
+
+.title {
+
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+}

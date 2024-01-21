@@ -1,0 +1,31 @@
+.card {
+    height: rem(45vh);
+    display: flex;
+    width: rem(100vw);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    font-family:  
+    Source Serif Pro;
+    text-align: center;
+  }
+  
+  .title {
+    font-weight: 900;
+    color: var(--mantine-color-white);
+    line-height: 1.2;
+    font-size: rem(64px);
+    margin-top: var(--mantine-spacing-xs);
+  }
+  
+  .category {
+    color: var(--mantine-color-white);
+    width: 40vw;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    font-weight: 700;
+
+  }
