@@ -8,16 +8,16 @@
     align-items: center;
     padding-top: 100px;
     /* justify-content: center; */
-    /* gap: 4px; */
+    gap: 0px;
 
 
 }
 
 .letter {
-    height: 100px;
+    height: 30px;
     font-family: Source Serif Pro;
     text-transform: uppercase;
     font-weight: 900;
-    font-style: bold;
+    /* font-style: bold; */
     font-size: 80px;
 }
