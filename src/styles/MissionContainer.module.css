@@ -11,12 +11,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     
 }
 
 .graphics {
-    height: 90%;
+    height: 45vw;
 }
 
 .content {
@@ -29,5 +29,5 @@
     flex-direction: column;
     position: relative;
     right: 300px;
-    gap: 40px;
+    /* gap: 20px; */
 }

@@ -7,9 +7,9 @@ const SideTitle = ({ title }) => {
   return (
     <div className={classes.container}>
       {titleArray.map((letter, i) => (
-        <h3 key={i} className={classes.letter}>
+        <p key={i} className={classes.letter}>
           {letter}
-        </h3>
+        </p>
       ))}
     </div>
   );
