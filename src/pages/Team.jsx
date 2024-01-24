@@ -15,23 +15,6 @@ import NewTeam from "../components/NewTeam";
 export default function Team() {
   return (
     <div size={700} className={classes.wrapper}>
-      {/* <Title order={3} className={classes.supTitle}>Team</Title> */}
-
-      <Title className={classes.title} order={2}>
-        Meet our team of{" "}
-        <span className={classes.highlight}>
-          <strong>IOSD</strong>
-        </span>{" "}
-        MAIT
-      </Title>
-
-      <Container size={660} p={0}>
-        <Text c="dimmed" className={classes.description}>
-         
-Allow us to introduce our dedicated and passionate team at the International Organization of Software Developers (IOSD) MAIT. Our team is a diverse group of individuals who share a common passion for software development and technology. With a collective commitment to fostering innovation and excellence, we come from various backgrounds, bringing a wide range of skills and experiences to the table
-        </Text>
-      </Container>
-     {/* <TeamMembers council={council} core={core}/> */}
      <NewTeam />
     </div>
   );

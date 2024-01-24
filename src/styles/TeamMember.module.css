@@ -1,8 +1,9 @@
-.card {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* .card {
     position: relative;
     width: 265px;
     height: 400px;
-    /* background: #f00; */
+    background: #f00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: linear-gradient(to left, #5B0888 0%, #ea5358 100%); */
+    background: linear-gradient(to left, #5B0888 0%, #ea5358 100%);
   }
   
   .card::after {
@@ -41,16 +42,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: linear-gradient(to left, #5B0888 0%, #ea5358 100%); */
+    background: linear-gradient(to left, #5B0888 0%, #ea5358 100%);
     filter: blur(30px); 
   }
   
   .card b {
     position: absolute;
     inset: 6px;
-    /* background: rgba(0, 0, 0, 0.6); */
+    background: rgba(0, 0, 0, 0.6);
     background: #1e2649;
-    /* background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     z-index: 2;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.125);
@@ -62,7 +63,7 @@
     z-index: 3;
     bottom: 60px;
     scale: 0.8;
-    /* opacity: 0.25; */
+    opacity: 0.25;
     transition: 0.5s;
     border-radius: 10px;
     height: 85%;
@@ -153,7 +154,7 @@
   
   .sci .sci-icon .fa-brands {
     width: 14px;
-    /* z-index: 10; */
+    z-index: 10;
 
   }
   
@@ -162,7 +163,7 @@
   }
   
   .sci .sci-icon a {
-    /* z-index: 10; */
+    z-index: 10;
 
     position: relative;
     text-decoration: none;
@@ -182,4 +183,64 @@
     fill: currentColor;
     color: rgba(255, 255, 255, 1);
   }
-  
+   */
+
+   .card{
+    width: 30%;
+    min-width: 300px;
+    height: 35rem;
+    background-color: #4DADB5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   .title{
+    font-family: poppins;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 1.25rem 0;
+    text-transform: uppercase;
+   }
+   .image-container{
+    width: 85%;
+    height: 22rem;
+    border-radius: 15px;
+    overflow: hidden;
+   }
+   .card img{
+    width: 100%;
+    height: 100%;
+   }
+   .post{
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #fff;
+
+   }
+   .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   }
+   .sci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   }
+    .sci-icon a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+    .sci-icon a:hover{
+      color: #0a0af0;
+    }
+    

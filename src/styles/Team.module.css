@@ -49,7 +49,7 @@ const useStyles = createStyles((theme) => ({
 })); */
 
 .wrapper {
-    padding-top: rem(80px);
+    /* padding-top: rem(80px); */
     padding-bottom: rem(50px);
     background: linear-gradient(90.13deg, #0A1227 45.33%, #09090F 99.32%);  
   }
