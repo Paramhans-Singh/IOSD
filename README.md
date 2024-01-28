@@ -1,6 +1,6 @@
 # IOSD Website 🚀
 
-👋 Welcome to the IOSD website – a hub for innovation and collaboration in the world of software development!
+👋 Welcome to the IOSD website – a hub for innovation and collaboration in the world of software development! Powered by cutting-edge technologies like React.js, Mantine Hooks, CSS, and JavaScript, this platform embodies innovation and collaboration in the software development realm. 🎉
 
 <br>
 
