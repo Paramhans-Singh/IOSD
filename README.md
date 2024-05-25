@@ -4,6 +4,7 @@
 Welcome to the IOSD website, a hub for innovation and collaboration in the world of software development! This platform, powered by cutting-edge technologies like React.js, Mantine Hooks, CSS, and JavaScript, is designed to provide an interactive and engaging user experience. Whether you're a developer, student, or tech enthusiast, the IOSD website offers a wealth of resources and features to support your software development journey.
 
 ## IOSD Website Preview 
+https://github.com/Paramhans-Singh/IOSD/assets/101575816/39d07bb7-1a89-411a-b667-547e923cf8c2
 
 ## Objectives
 - **User Engagement**: Provide an interactive platform to engage with the latest in software development.
